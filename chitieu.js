@@ -515,7 +515,7 @@ huongDanSuDung = () => {
   }, 50);
 };
 
-// Hàm nhật ký phiên bản
+// Hàm nhật ký phiên bản app
 nhatKyPhienBan = () => {
   setTimeout(() => {
     alert(`• 0.1  Beta  -  20.03.2023
