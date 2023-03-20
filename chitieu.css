@@ -1,0 +1,135 @@
+html,
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  font-family: arial;
+  background-image: url("bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.divBar {
+  background-color: darkcyan;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.divBasePopup {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.divPopup {
+  width: 310px;
+  height: 300px;
+  background: skyblue;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 100px;
+}
+
+.divTienCT-Tinh {
+  display: flex;
+  justify-content: right;
+}
+
+.divBtnThem-Thoat {
+  display: flex;
+  justify-content: space-between;
+}
+
+.divContent {
+  padding: 5px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 2px;
+}
+
+select {
+  height: 32px;
+  background-color: aliceblue;
+  font-size: 16px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+textarea {
+  width: 96%;
+  font-size: 18px;
+  font-family: arial;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid black;
+  background-color: aliceblue;
+}
+
+input {
+  width: 96%;
+  height: 24px;
+  font-size: 16px;
+  text-align: center;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid black;
+  background-color: aliceblue;
+}
+
+button {
+  height: 35px;
+  padding: 5px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid black;
+  background-color: lightblue;
+}
+
+button:hover {
+  background-color: lightpink;
+}
+
+table {
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+  border: 1.4px solid black;
+}
+
+th {
+  height: 30px;
+  background-color: lightgreen;
+  border: 1px solid black;
+}
+
+td {
+  height: 20px;
+  border: 1px solid gray;
+}
+
+td:hover {
+  background-color: lightpink !important;
+}
+
+.tdTien {
+  padding: 3px;
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="chitieu.css">
+  <title>Chi Tiêu</title>
+</head>
+
+<body>
+
+  <div class="divBasePopup">
+    <div class="divPopup">
+      <form>
+        <h3 id="noiDungPopup" style="text-align: center; margin-bottom: 5px"></h3>
+        <h4>Chi Tiêu</h4>
+        <textarea id="textArea" rows="3" placeholder="Nội Dung Chi Tiêu"></textarea>
+        <br>
+        <h4>Tiền C.Tiêu</h5>
+          <div class="divTienCT-Tinh">
+            <input type="number" placeholder='Tiền Chi Tiêu'>
+            <button id="btnTinh" type="button" style="margin-left: 5px">Tính</button>
+          </div>
+          <h4>Tiền Xăng</h4>
+          <input type="number" placeholder='Tiền Xăng Nếu Có'>
+          <br>
+          <br>
+          <div class="divBtnThem-Thoat">
+            <button type="button" id="btnThoat">Thoát</button>
+            <button type="button" id="btnAddData"></button>
+          </div>
+      </form>
+    </div>
+  </div>
+
+  <div class="divContent">
+
+    <div class="divBar">
+      <select id="chonThang" onchange="thayDoiThang()">
+        <option value="1">Tháng 01</option>
+        <option value="2">Tháng 02</option>
+        <option value="3">Tháng 03</option>
+        <option value="4">Tháng 04</option>
+        <option value="5">Tháng 05</option>
+        <option value="6">Tháng 06</option>
+        <option value="7">Tháng 07</option>
+        <option value="8">Tháng 08</option>
+        <option value="9">Tháng 09</option>
+        <option value="10">Tháng 10</option>
+        <option value="11">Tháng 11</option>
+        <option value="12">Tháng 12</option>
+      </select>
+      <input type="date" id="date" onchange="dateChange(event)" style="width: 120px; height: 20px">
+      <select id="tuyChon" onchange="tuyChon()" style="width: 65px">
+        <option value="menu" hidden>Menu</option>
+        <option value="tangca" hidden>Đến Trang Tăng Ca</option>
+        <option value="thongke">Thống Kê</option>
+        <option id="optiondulieucu" value="dulieucu">Dữ Liệu Đã Lưu</option>
+        <option value="huongdan">Hướng Dẫn</option>
+        <option value="thongtin">Thông Tin</option>
+        <option value="xoatatca">Xoá Dữ Liệu</option>
+        <option value="nhatky">Nhật Ký Phiên Bản</option>
+      </select>
+      <button id="btnThem" style="height: 32px; padding: 2px">Thêm</button>
+    </div>
+
+    <pre id="tienTong"
+      style="font-size: 14px; font-family: arial; font-weight: bold; margin: 5px 0; padding: 5px 0; color: brown; text-align: center; background-color: aliceblue; border: 1px solid black; border-radius: 5px">
+    </pre>
+
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Nội Dung Chi Tiêu</th>
+          <th>Tiền</th>
+          <th>Xăng</th>
+          <th>Tổng</th>
+          <th>T.Gian</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+
+  </div>
+
+  <script type="text/javascript" src="chitieu.js"></script>
+</body>
+
+</html>
