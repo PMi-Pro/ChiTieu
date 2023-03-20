@@ -36,7 +36,7 @@ body {
 
 .divPopup {
   width: 310px;
-  height: 300px;
+  height: 305px;
   background: skyblue;
   border-radius: 5px;
   padding: 10px;
@@ -112,7 +112,7 @@ table {
   width: 100%;
   text-align: center;
   border-collapse: collapse;
-  border: 1.6px solid black;
+  border: 1.5px solid black;
 }
 
 th {
