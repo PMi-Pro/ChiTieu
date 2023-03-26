@@ -124,7 +124,7 @@ layDuLieu = () => {
       }
       else if (tong == 0) {
         thongTinTien.innerText = `Tháng ${(chonThang.value < 10 ? "0" : "") + chonThang.value} chưa có dữ liệu`;
-        tbody.innerHTML = `<td onclick="showPopup()" style="height: 40px; font-size: 18px; background-color: lightgoldenrodyellow" colspan="6">Nhấn để thêm dữ liệu</td>`;
+        tbody.innerHTML = `<td onclick="showPopup()" style="height: 30px; font-size: 18px; background-color: lightgoldenrodyellow" colspan="6">Nhấn để thêm dữ liệu</td>`;
       }
       else thongTinTien.innerHTML = `Xăng: ${tien.format(xang)} đ   •   Chi: ${tien.format(tong - xang)} đ   •   ${count} Ngày<br>Tổng: ${tien.format(tong)} đ`;
     }
