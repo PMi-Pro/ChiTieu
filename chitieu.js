@@ -499,7 +499,7 @@ huongDanSuDung = () => {
 1: Mục Tháng: Chọn tháng xem dữ liệu chi tiêu
 2: Mục Thời Gian: Chọn ngày ghi chi tiêu tùy chọn, hoặc mặc định là ngày hiện tại (Áp dụng khi quên ghi)
 3: Mục 'Menu': Các tùy chọn ứng dụng, như 'Thống Kê', 'Dữ Liệu Đã Lưu', 'Xoá Dữ Liệu' v.v..
-4: Mục 'Thêm': Nhấn để thêm dữ liệu chi tiêu mới\n
+4: Mục 'Thêm Chi Tiêu Mới' (Thanh ngang dưới cùng): Nhấn để thêm dữ liệu chi tiêu mới\n
 ••• BẢNG DỮ LIỆU •••
 1: Mục 'Nội Dung Chi Tiêu':  Chọn các nội dung chi tiêu để sửa lại
 2: Mục 'Thời Gian': Chọn thời gian ngày chi tiêu muốn xoá\n
