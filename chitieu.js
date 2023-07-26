@@ -469,7 +469,7 @@ T04:  Xăng: ${tien.format(x4)} | C.Tiêu: ${tien.format(t4 - x4)} | Tổng: ${t
 T05:  Xăng: ${tien.format(x5)} | C.Tiêu: ${tien.format(t5 - x5)} | Tổng: ${tien.format(t5)}
 T06:  Xăng: ${tien.format(x6)} | C.Tiêu: ${tien.format(t6 - x6)} | Tổng: ${tien.format(t6)}
 T07:  Xăng: ${tien.format(x7)} | C.Tiêu: ${tien.format(t7 - x7)} | Tổng: ${tien.format(t7)}
-T08:  Xăng: ${tien.format(x8)} | C.Tiêu: ${tien.format(t7 - x8)} | Tổng: ${tien.format(t8)}
+T08:  Xăng: ${tien.format(x8)} | C.Tiêu: ${tien.format(t8 - x8)} | Tổng: ${tien.format(t8)}
 T09:  Xăng: ${tien.format(x9)} | C.Tiêu: ${tien.format(t9 - x9)} | Tổng: ${tien.format(t9)}
 T10:  Xăng: ${tien.format(x10)} | C.Tiêu: ${tien.format(t10 - x10)} | Tổng: ${tien.format(t10)}
 T11:  Xăng: ${tien.format(x11)} | C.Tiêu: ${tien.format(t11 - x11)} | Tổng: ${tien.format(t11)}
